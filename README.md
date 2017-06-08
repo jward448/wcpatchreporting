@@ -12,4 +12,4 @@ wc-reset.ps1
 They will look like this: {replace with FQDN of script host here} or {replace with short name of script host here}
 Obviously remove the {} brackets as well.
 
-This script, running in a windows scheduler on a domain joined windows server that also was runnign IIS, can give your staff/management a easy reference to check every morning to see your progress in patching against this malware. Could be re-used for future issues like this one by simply changing the KBs it's scanning for.
+This script, running in a windows scheduler on a domain joined windows server that also was runnign IIS, can give your staff/management a easy reference to check every morning to see your progress in patching against this malware. Could be re-used for future issues like this one by simply changing the KBs it's scanning for. Thanks again for @kieranwalsh for writing the core scanning script this was based on.
